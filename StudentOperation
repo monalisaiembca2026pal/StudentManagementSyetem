@@ -1,0 +1,6 @@
+interface StudentOperations {
+ void addStudent(Student s);
+ void viewStudents();
+ void searchStudent(int id) throws StudentNotFoundException;
+ void deleteStudent(int id) throws StudentNotFoundException;
+}
